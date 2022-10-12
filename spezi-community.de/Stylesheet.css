@@ -1,0 +1,286 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {text-align: center;}
+
+.container {
+    font-size: 5em;
+    background-color: #a8a8a8;
+    color: white;
+    width: 8em;
+    height: 2em;
+    line-height: 2;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+
+.Hauptbox{
+	row-gap: 4px;
+    padding: 5%;
+    flex: 0 0 45%;
+    border: 0 solid #bbb;
+    border-radius: 30px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+	align-content: center;
+	background: #fff url(https://cdn.discordapp.com/attachments/847192858812874783/943210793426616320/spezi_Website_banner.png) center center/cover no-repeat;
+    width: 410px;
+	height: 100px;
+    align-items: center;
+    margin:auto;
+    
+}
+
+
+.Baustellenbox{
+	row-gap: 4px;
+    padding: 5%;
+    flex: 0 0 45%;
+    border: 0 solid #bbb;
+    border-radius: 30px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+	align-content: center;
+	background: #fff url(https://cdn.discordapp.com/attachments/882019837495377921/974723053399449630/unknown.png) center center/cover no-repeat;
+    width: 400px;
+	height: 400px;
+    align-items: center;
+    margin:auto;
+
+}
+.item {
+    row-gap: 4px;
+    padding: 5%;
+    flex: 0 0 45%;
+    border: 0 solid #bbb;
+    border-radius: 30px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+	align-content: center;
+	background-color: rgb(54, 57, 62);
+    width: 500px;
+	height: 200px;
+    align-items: center;
+    margin:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b6b8bb;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+}
+
+.flexbox {
+    background-color: rgb(54, 57, 62);
+    width: 300px;
+    height: fit-content;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.flexbox img {
+
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.spezibilder {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.Impressum {
+    position: absolute;
+    bottom: 0;
+    font-size: small;
+    color: black;
+}
+
+.kontaktboxen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #5865F2; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+
+
+  .button_Reddit {
+    background-color:#ff4500; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+
+
+  .button_twitter {
+    background-color:#1DA1F2; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+
+  .Indexbox {
+    content: url(https://cdn.discordapp.com/attachments/839060559429238795/1011545875299962890/spezischrift.png);
+    width: 350px;
+    height: fit-content;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+   justify-content: center;
+      margin: auto;
+}
+
+  .Inderbox {
+        background-color: rgb(54, 57, 62);
+        height: fit-content;
+        width: 440px;
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  .login {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 300px;
+      height: 300px;
+      border-radius: 20px;
+      color: white;
+      background-color: rgb(54, 57, 62);
+      
+      display: grid;
+      justify-content: center;
+      align-items: center;
+
+
+  }
+
+    .login input {
+        margin: 10px;
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .login button {
+        background-color: #5865F2;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .login button:hover {
+        background-color: #5865F2;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .login button:active {
+        background-color: #5865F2;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .login button:focus {
+        background-color: #5865F2;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .login button:disabled {
+        background-color: #5865F2;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .login button:hover:enabled {
+        background-color: #5865F2;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 20px;
+    }
