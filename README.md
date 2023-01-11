@@ -1,1 +1,0 @@
-# spezi-community.de
